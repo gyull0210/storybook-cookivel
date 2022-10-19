@@ -1,0 +1,19 @@
+.storybook-button {
+  @apply font-semibold border-none rounded-lg cursor-pointer inline-block
+}
+.storybook-button--primary {
+  @apply text-white bg-sky-400 hover:bg-sky-500 active:bg-sky-600
+}
+.storybook-button--secondary {
+  @apply text-gray-800 bg-transparent border border-solid border-gray-400 hover:bg-gray-200 active:bg-gray-300
+}
+.storybook-button--small {
+  @apply text-xs px-3 py-2
+}
+
+.storybook-button--medium {
+  @apply text-sm px-3 py-2.5
+}
+.storybook-button--large {
+  @apply text-base px-4 py-3
+}
